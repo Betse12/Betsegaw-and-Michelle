@@ -25,3 +25,41 @@ img {
         overflow-clip-margin: content-box;
         overflow: clip;
     }
+    #img-caption {
+        margin: 15px 0 5px 0;
+        text-align: center;
+    }
+   
+figcaption {
+        display: block;
+        text-align: center;
+    }
+#tribute-info{
+        text-align: center;
+        font-weight: bold;
+    }
+
+ ul {
+        max-width: 550px;
+        margin: 0 auto 50px auto;
+        text-align: left;
+        line-height: 1.7;
+    }
+#link{
+        font-size: 24px;
+        font-weight: bold;
+    }
+.s_text{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    
+    }
+body {
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Helvetica Neue', Arial, sans-serif;
+        font-size: 18px;
+        line-height: 1.5;
+        /*text-align: center;*/
+        color: #333;
+        margin: 0;
+    }
